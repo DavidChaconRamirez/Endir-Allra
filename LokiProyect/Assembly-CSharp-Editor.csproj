@@ -47,29 +47,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Utils\CurveEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Utils\FxStyles.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PostProcessingInspector.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Utils\EditorResources.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PostProcessingMonitor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\BloomModelEditor.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PostProcessingFactory.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PostProcessingModelEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\GrainModelEditor.cs" />
@@ -78,6 +65,19 @@
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\FogModelEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Utils\CurveEditor.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Utils\FxStyles.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PostProcessingInspector.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PostProcessingMonitor.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\PostProcessingFactory.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
  <Reference Include="UnityEngine">
@@ -316,6 +316,9 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -671,9 +674,6 @@
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Animation.Editor">
- <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.InternalAPIEngineBridge.001">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
  </Reference>
@@ -683,14 +683,20 @@
  <Reference Include="Unity.2D.PixelPerfect">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="PsdPlugin">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -698,11 +704,17 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Searcher.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
@@ -719,14 +731,17 @@
  <Reference Include="Unity.2D.Path.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.InternalAPIEditorBridge.001">
- <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Analytics">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Analytics.dll</HintPath>
@@ -740,11 +755,20 @@
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.IK.Runtime">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ShaderGraph.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -757,6 +781,12 @@
  </Reference>
  <Reference Include="Unity.2D.PixelPerfect.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -787,6 +817,9 @@
  </Reference>
  <Reference Include="UnityEngine.Advertisements.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Runtime">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>

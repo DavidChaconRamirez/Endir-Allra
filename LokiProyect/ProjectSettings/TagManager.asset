@@ -11,6 +11,7 @@ TagManager:
   - Slash
   - Cristal
   - Cristal2
+  - imageChange
   layers:
   - Default
   - TransparentFX

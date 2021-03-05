@@ -47,53 +47,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\SalaLimpia.cs" />
      <Compile Include="Assets\Script\Prueba.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\Script\Death.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\Button_UI.cs" />
      <Compile Include="Assets\Script\BossHability.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\World_Mesh.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
      <Compile Include="Assets\Script\Invocation.cs" />
-     <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\CameraShake.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\EffectsScene.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
      <Compile Include="Assets\Script\Bullet.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-     <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\VignetteComponent.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\FogModel.cs" />
      <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\TaaComponent.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
      <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
-     <Compile Include="Assets\CodeMonkey\Assets.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\VignetteModel.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\GrainModel.cs" />
-     <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
+     <Compile Include="Assets\Script\cambioImagen.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingModel.cs" />
-     <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
      <Compile Include="Assets\Script\Enemy.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\FowardObjectMake.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\MultiCircleObjectMake.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\ChangeColor.cs" />
-     <Compile Include="Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingProfile.cs" />
-     <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ExplodingProjectile.cs" />
-     <Compile Include="Assets\Script\daño.cs" />
-     <Compile Include="Assets\Script\Vidita.cs" />
      <Compile Include="Assets\Script\healthBar.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\GrainComponent.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\CameraShakeProjectile.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingContext.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
@@ -101,64 +73,94 @@
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\Script\CameraFollow.cs" />
      <Compile Include="Assets\Script\Boss.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\MultiObjectMake.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\UserLutModel.cs" />
      <Compile Include="Assets\Script\Estadisticas.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\BloomComponent.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Move\TranslateMove.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\ScaleChange.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\Material_Change.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\SimpleObjectMake.cs" />
      <Compile Include="Assets\Script\Rock.cs" />
-     <Compile Include="Assets\Script\DañoSlash.cs" />
-     <Compile Include="Assets\Script\BossInvoque.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\FunctionTimer.cs" />
      <Compile Include="Assets\Script\LanzamientoX.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-     <Compile Include="Assets\EffectCore\scripts\destroyMe.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\Projectile.cs" />
-     <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Move\MoveToTag.cs" />
      <Compile Include="Assets\Script\dañoExplosion.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\DitheringComponent.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingComponent.cs" />
      <Compile Include="Assets\Script\slash.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\CameraShakeCaller.cs" />
      <Compile Include="Assets\Script\PlayerMovement.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
-     <Compile Include="Assets\Script\DañoPlayer.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
-     <Compile Include="Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
-     <Compile Include="Assets\Script\Warp.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\MouseOrbit.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\RotateObject.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
      <Compile Include="Assets\Script\BossInvoque1.cs" />
      <Compile Include="Assets\Script\Shooting.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\FogComponent.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\EffectActor.cs" />
+     <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\projectileActor.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Move\MoveToObject.cs" />
+     <Compile Include="Assets\Script\SalaLimpia.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+     <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\EffectsScene.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+     <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\FogModel.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\TaaComponent.cs" />
+     <Compile Include="Assets\CodeMonkey\Assets.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\VignetteModel.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\GrainModel.cs" />
+     <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingModel.cs" />
+     <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\FowardObjectMake.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
+     <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ExplodingProjectile.cs" />
+     <Compile Include="Assets\Script\daño.cs" />
+     <Compile Include="Assets\Script\Vidita.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\MultiObjectMake.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\UserLutModel.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\ScaleChange.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\Material_Change.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\SimpleObjectMake.cs" />
+     <Compile Include="Assets\Script\DañoSlash.cs" />
+     <Compile Include="Assets\Script\BossInvoque.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+     <Compile Include="Assets\EffectCore\scripts\destroyMe.cs" />
+     <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\Script\DañoPlayer.cs" />
+     <Compile Include="Assets\Script\Warp.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+     <Compile Include="Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\MouseOrbit.cs" />
+     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\FogComponent.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
      <Compile Include="Assets\EffectCore\scripts\particleColorChangerMaster.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\DelayObjectMake.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
-     <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\EffectActor.cs" />
-     <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\projectileActor.cs" />
-     <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Move\MoveToObject.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\Script\irMenu.cs" />
      <None Include="Assets\FantasySpellsEffectsPack\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\FantasySpellsEffectsPack\Shader_ForEffects\Integrated Particle\Shader_Integrated Paticle(WithNormal).shader" />
      <None Include="Assets\FantasySpellsEffectsPack\PostProcessing\Resources\Shaders\GrainGen.shader" />
@@ -217,6 +219,7 @@
      <None Include="Assets\FantasySpellsEffectsPack\PostProcessing\Resources\Shaders\Bloom.cginc" />
      <None Include="Assets\FantasySpellsEffectsPack\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
      <None Include="Assets\FantasySpellsEffectsPack\Shader_ForEffects\Dissolve Texture\Shader_DissolveTexture(MaskFade).shader" />
+     <None Include="Assets\MagicalDark\Sources\Shader\Rimlight.shader" />
      <None Include="Assets\FantasySpellsEffectsPack\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
      <None Include="Assets\FantasySpellsEffectsPack\Shader_ForEffects\Integrated Particle\Shader_Integrated Paticle(ValueControl).shader" />
      <None Include="Assets\FantasySpellsEffectsPack\Shader_ForEffects\Dissolve Texture\Shader_DissolveTexture(MaskAnimation).shader" />
@@ -796,9 +799,6 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>D:/Unity/2020.2.2f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Animation.Editor">
- <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.InternalAPIEngineBridge.001">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
  </Reference>
@@ -808,14 +808,20 @@
  <Reference Include="Unity.2D.PixelPerfect">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="PsdPlugin">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -823,11 +829,17 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Searcher.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
@@ -844,14 +856,17 @@
  <Reference Include="Unity.2D.Path.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.InternalAPIEditorBridge.001">
- <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Analytics">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Analytics.dll</HintPath>
@@ -865,11 +880,20 @@
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.IK.Runtime">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ShaderGraph.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -882,6 +906,12 @@
  </Reference>
  <Reference Include="Unity.2D.PixelPerfect.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -912,6 +942,9 @@
  </Reference>
  <Reference Include="UnityEngine.Advertisements.Editor">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Runtime">
  <HintPath>G:/ProyectoLoki/ProyectoLoki/LokiProyect/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
