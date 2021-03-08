@@ -44,7 +44,7 @@ public class Enemy : MonoBehaviour {
     void Update () {
 
         // Por defecto nuestro target siempre será nuestra posición inicial
-        target = initialPosition;
+        //target = player.transform.position;
 
         // Comprobamos un Raycast del enemigo hasta el jugador
         RaycastHit2D hit = Physics2D.Raycast(

@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Loading.unity
     guid: 1c52df42d39cacf47a5ed1b54c3d1399
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 5b9e5a77a0fed264f9be198c2935bef9
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Templar.unity
+    guid: ebcfbf2889bb842419bf5dca1f134a07
+  - enabled: 1
+    path: Assets/Scenes/HordeMode.unity
+    guid: 1470eabb25968d44fb108936d53f6d15
   m_configObjects: {}
