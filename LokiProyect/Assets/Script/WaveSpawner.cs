@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class WaveSpawner : MonoBehaviour
     public Wave[] waves;
 	private int nextWave = 0;
 	
+	public Text TextWave;
+	private int NumberWave = 1;
+	
 	public Transform[] spawnPoints;
 	
 	public float timeBetweenWaves = 5f;
@@ -29,6 +33,7 @@ public class WaveSpawner : MonoBehaviour
 	
 	void Start()
 	{
+		TextWave.text = "Ronda: "+NumberWave;
 		if (spawnPoints.Length == 0)
 		{
 			Debug.Log("No se encuentran los spwans");
@@ -77,7 +82,8 @@ public class WaveSpawner : MonoBehaviour
 		{
 			nextWave++;	
 		}
-		
+		NumberWave++;
+		TextWave.text = "Ronda: "+NumberWave;
 		
 	}
 	

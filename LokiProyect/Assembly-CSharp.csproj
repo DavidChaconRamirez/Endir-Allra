@@ -68,6 +68,7 @@
      <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Object\MultiCircleObjectMake.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingProfile.cs" />
      <Compile Include="Assets\Script\healthBar.cs" />
+     <Compile Include="Assets\Script\MenuSalto.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\CameraShakeProjectile.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingContext.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
@@ -86,6 +87,7 @@
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\Projectile.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\Move\MoveToTag.cs" />
      <Compile Include="Assets\Script\dañoExplosion.cs" />
+     <Compile Include="Assets\Script\MenuHorda.cs" />
      <Compile Include="Assets\Script\PlayerDeath.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\DitheringComponent.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingComponent.cs" />
@@ -109,6 +111,7 @@
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\Script\WaveSpawner.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\Scripts\EffectsScene.cs" />
@@ -119,6 +122,7 @@
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\FogModel.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Components\TaaComponent.cs" />
      <Compile Include="Assets\CodeMonkey\Assets.cs" />
+     <Compile Include="Assets\Script\PlayerDeathHorde.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\VignetteModel.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\GrainModel.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
@@ -165,10 +169,7 @@
      <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
      <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
      <Compile Include="Assets\FantasySpellsEffectsPack\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Script\MenuSalto.cs" />
-     <Compile Include="Assets\Script\WaveSpawner.cs" />
-     <Compile Include="Assets\Script\MenuHorda.cs" />
-     <Compile Include="Assets\Script\PlayerDeathHorde.cs" />
+     <Compile Include="Assets\Script\DataBase.cs" />
      <None Include="Assets\FantasySpellsEffectsPack\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\FantasySpellsEffectsPack\Shader_ForEffects\Integrated Particle\Shader_Integrated Paticle(WithNormal).shader" />
      <None Include="Assets\FantasySpellsEffectsPack\PostProcessing\Resources\Shaders\GrainGen.shader" />
